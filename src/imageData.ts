@@ -23,18 +23,18 @@ import prusaLogo from './assets/prusa.png';
 import vivadoLogo from './assets/vivado.png';
 
 // Project images
-// import aquasenseImage from './assets/projects/aquasense.jpg';
-// import doorlockImage from './assets/projects/doorlock.jpg';
-// import booktrackerImage from './assets/projects/booktracker.jpg';
-// import morsecodeImage from './assets/projects/morsecode.jpg';
-// import smartlampImage from './assets/projects/smartlamp.jpg';
+ import aquasenseImage from './assets/aquasense.jpg';
+ import doorlockImage from './assets/doorlock2.png';
+ import booktrackerImage from './assets/booktrack.png';
+ import morsecodeImage from './assets/morsecode.jpg';
+ import smartlampImage from './assets/smartlamp.jpg';
 
 // Create imageData object
 const imageData = {
   // Profile images
   profile: {
-    main: profileImage, // profileImage when you uncomment it
-    about: aboutImage // aboutImage when you uncomment it
+    main: profileImage, 
+    about: aboutImage 
   },
 
   // Programming languages
@@ -61,11 +61,11 @@ const imageData = {
 
   // Projects
   projects: {
-    aquasense: undefined, // aquasenseImage when you uncomment it
-    doorlock: undefined, // doorlockImage when you uncomment it
-    booktracker: undefined, // booktrackerImage when you uncomment it
-    morsecode: undefined, // morsecodeImage when you uncomment it
-    smartlamp: undefined // smartlampImage when you uncomment it
+    aquasense: aquasenseImage, // aquasenseImage when you uncomment it
+    doorlock: doorlockImage, // doorlockImage when you uncomment it
+    booktracker: booktrackerImage, // booktrackerImage when you uncomment it
+    morsecode: morsecodeImage, // morsecodeImage when you uncomment it
+    smartlamp: smartlampImage // smartlampImage when you uncomment it
   },
 
   // Fallback/placeholder images
