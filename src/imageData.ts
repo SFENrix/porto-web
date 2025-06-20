@@ -16,7 +16,7 @@ import javaLogo from './assets/java.png';
 // Tools and Software images
 import easyedaLogo from './assets/easyeda.png';
 import fusionLogo from './assets/fusion.png';
-import vscodeLogo from './assets/VScode.png';
+import vscodeLogo from './assets/VSCode.png';
 import figmaLogo from './assets/Figma.png';
 import arduinoLogo from './assets/arduino.jpg';
 import prusaLogo from './assets/prusa.png';
