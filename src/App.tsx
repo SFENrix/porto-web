@@ -9,7 +9,7 @@ const App = () => {
   const downloadCV = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = './Rio Ferdinand_CV_Academy2026.pdf'; // Path to your CV file in public folder
+    link.href = '/Rio-Ferdinand_CV_Academy2026.pdf'; // Path to your CV file in public folder
     link.download = 'CV_Rio Ferdinand.pdf'; // Downloaded filename
     document.body.appendChild(link);
     link.click();
